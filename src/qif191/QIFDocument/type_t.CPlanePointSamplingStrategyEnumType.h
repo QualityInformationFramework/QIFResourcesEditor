@@ -1,0 +1,48 @@
+#pragma once
+
+
+
+namespace qif191
+{
+
+namespace t
+{	
+
+class CPlanePointSamplingStrategyEnumType : public TypeBase
+{
+public:
+	QIF191_EXPORT CPlanePointSamplingStrategyEnumType(xercesc::DOMNode* const& init);
+	QIF191_EXPORT CPlanePointSamplingStrategyEnumType(CPlanePointSamplingStrategyEnumType const& init);
+	void operator=(CPlanePointSamplingStrategyEnumType const& other) { m_node = other.m_node; }
+	static altova::meta::SimpleType StaticInfo() { return altova::meta::SimpleType(types + _altova_ti_t_altova_CPlanePointSamplingStrategyEnumType); }
+
+	enum EnumValues {
+		Invalid = -1,
+		k_ORTHOGONALGRID = 0, // ORTHOGONALGRID
+		k_POLARGRID = 1, // POLARGRID
+		k_SPECIFIEDGRID = 2, // SPECIFIEDGRID
+		k_STRATIFIED = 3, // STRATIFIED
+		k_SPIRAL = 4, // SPIRAL
+		k_SPIDERWEB = 5, // SPIDERWEB
+		k_POINTS = 6, // POINTS
+		EnumValueCount
+	};
+	void operator= (const string_type& value) 
+	{
+		altova::XmlFormatter* Formatter = static_cast<altova::XmlFormatter*>(altova::AnySimpleTypeFormatter);
+		XercesTreeOperations::SetValue(GetNode(), Formatter->Format(value));
+	}	
+		
+	operator string_type()
+	{
+		return CastAs<string_type >::Do(GetNode(), 0);
+	}
+};
+
+
+
+} // namespace t
+
+}	// namespace qif191
+
+//#endif // _ALTOVA_INCLUDED_QIFDocument_ALTOVA_t_ALTOVA_CPlanePointSamplingStrategyEnumType

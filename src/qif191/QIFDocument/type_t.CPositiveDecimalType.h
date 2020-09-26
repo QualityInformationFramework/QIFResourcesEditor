@@ -1,0 +1,36 @@
+#pragma once
+
+
+
+namespace qif191
+{
+
+namespace t
+{	
+
+class CPositiveDecimalType : public TypeBase
+{
+public:
+	QIF191_EXPORT CPositiveDecimalType(xercesc::DOMNode* const& init);
+	QIF191_EXPORT CPositiveDecimalType(CPositiveDecimalType const& init);
+	void operator=(CPositiveDecimalType const& other) { m_node = other.m_node; }
+	static altova::meta::SimpleType StaticInfo() { return altova::meta::SimpleType(types + _altova_ti_t_altova_CPositiveDecimalType); }
+	void operator= (const double& value) 
+	{
+		altova::XmlFormatter* Formatter = static_cast<altova::XmlFormatter*>(altova::DecimalFormatter);
+		XercesTreeOperations::SetValue(GetNode(), Formatter->Format(value));
+	}	
+		
+	operator double()
+	{
+		return CastAs<double >::Do(GetNode(), 0);
+	}
+};
+
+
+
+} // namespace t
+
+}	// namespace qif191
+
+//#endif // _ALTOVA_INCLUDED_QIFDocument_ALTOVA_t_ALTOVA_CPositiveDecimalType

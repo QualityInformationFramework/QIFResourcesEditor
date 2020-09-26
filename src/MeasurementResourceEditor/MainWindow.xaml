@@ -1,0 +1,131 @@
+﻿<RibbonWindow x:Class="MeasurementResourceEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MeasurementResourceEditor"
+        xmlns:prop="clr-namespace:MeasurementResourceEditor.Properties"
+        Title="{Binding Source={x:Static prop:Resources.AppName}}"
+        Icon="images/MetrosageWhite.ico"
+        Height="1000" 
+        MinHeight="500"
+        Width="800"
+        MinWidth="425"
+        ResizeMode="CanResizeWithGrip"
+        UseLayoutRounding="True"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing"
+        >
+    <!-- UseLayoutRounding?? Also, ResizeMode? -->
+
+    <!-- Commands bindings -->
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" Executed="New_Executed" CanExecute="New_CanExecute" />
+        <CommandBinding Command="ApplicationCommands.Open" Executed="Open_Executed" CanExecute="Open_CanExecute" />
+        <CommandBinding Command="ApplicationCommands.Save" Executed="Save_Executed" CanExecute="Save_CanExecute" />
+        <CommandBinding Command="ApplicationCommands.SaveAs" Executed="SaveAs_Executed" CanExecute="Save_CanExecute" />
+        <CommandBinding Command="ApplicationCommands.Close" Executed="Close_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.UpdateTreeViewNodeNames}" CanExecute="UpdateTreeViewNodeNames_CanExecute" Executed="UpdateTreeViewNodesNames_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.CreateNewCmm}" CanExecute="CreateNewCmm_CanExecute" Executed="CreateNewCmm_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.CreateNewSensor}" CanExecute="CreateNewSensor_CanExecute" Executed="CreateNewSensor_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.DeleteMeasurementResource}" CanExecute="DeleteMeasurementResource_CanExecute" Executed="DeleteMeasurementResource_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.CopyMeasurementResource}" CanExecute="CopyMeasurementResource_CanExecute" Executed="CopyMeasurementResource_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.CopyMeasurementResourceAndChildren}" CanExecute="CopyMeasurementResourceAndChildren_CanExecute" Executed="CopyMeasurementResourceAndChildren_Executed" />
+        <CommandBinding Command="{x:Static local:RoutedCommands.PasteMeasurementResource}" CanExecute="PasteMeasurementResource_CanExecute" Executed="PasteMeasurementResource_Executed" />
+    </Window.CommandBindings>
+
+    <DockPanel>
+
+        <!--The Ribbon-->
+        <Ribbon DockPanel.Dock="Top">
+
+            <!-- File drop-down menu -->
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu KeyTip="F" ToolTipTitle="File" LargeImageSource="Images/metrosage_logo_clear17x17.png" SmallImageSource="Images/metrosage_logo_clear17x17.png">
+                    <RibbonApplicationMenuItem Header="New" Command="ApplicationCommands.New" KeyTip="N" ImageSource="Images/New.png" ToolTipTitle="Create a new database" />
+                    <RibbonApplicationMenuItem Header="Open" Command="ApplicationCommands.Open" KeyTip="O" ImageSource="Images/Open.png" ToolTipTitle="Open a file" />
+                    <RibbonApplicationMenuItem Header="Save" Command="ApplicationCommands.Save" KeyTip="S" ImageSource="Images/Save.png" ToolTipTitle="Save the MRD" />
+                    <RibbonApplicationMenuItem Header="Save As" Command="ApplicationCommands.SaveAs" KeyTip="V" ImageSource="Images/Save.png" ToolTipTitle="Save to a different MRD location" />
+                    <RibbonApplicationMenu.FooterPaneContent>
+                        <DockPanel LastChildFill="False">
+                            <RibbonButton 
+                                DockPanel.Dock="Right" 
+                                Command="ApplicationCommands.Close" 
+                                Label="Exit" 
+                                KeyTip="X" 
+                                Margin="2" 
+                                BorderBrush="#B8114EAF" 
+                                SmallImageSource="Images/Exit.png"
+                                ToolTipTitle="Close the MRD Editor"
+                                />
+                        </DockPanel>
+                    </RibbonApplicationMenu.FooterPaneContent>
+                    <RibbonApplicationMenu.AuxiliaryPaneContent>
+                        <RibbonGallery CanUserFilter="False" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="MruMenu_SelectionChanged" >
+                            <RibbonGalleryCategory x:Name="_mruMenu" Header="Recent Documents" Background="Transparent" >
+                                <RibbonGalleryCategory.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Vertical" IsItemsHost="True"/>
+                                    </ItemsPanelTemplate>
+                                </RibbonGalleryCategory.ItemsPanel>
+                                <RibbonGalleryCategory.ItemTemplate>
+                                    <DataTemplate>
+                                        <RibbonGalleryItem Content="{Binding Path=Name}" ToolTip="{Binding Path=FullName}" Tag="{Binding Path=FullName}"/>
+                                    </DataTemplate>
+                                </RibbonGalleryCategory.ItemTemplate>
+                            </RibbonGalleryCategory>
+                        </RibbonGallery>
+                    </RibbonApplicationMenu.AuxiliaryPaneContent>
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
+
+            <!-- Quick Access Toolbar -->
+            <Ribbon.QuickAccessToolBar>
+                <RibbonQuickAccessToolBar>
+                    <RibbonButton Command="ApplicationCommands.Open" SmallImageSource="Images/Open.png" />
+                    <RibbonButton Command="ApplicationCommands.Save" SmallImageSource="Images/Save.png" />
+                </RibbonQuickAccessToolBar>
+            </Ribbon.QuickAccessToolBar>
+
+            <!-- Ribbon buttons -->
+            <RibbonTab Header="Home" >
+                <RibbonGroup Header="Create Resources" >
+                    <RibbonButton Label="Create New CMM" Command="local:RoutedCommands.CreateNewCmm" LargeImageSource="Images/Cmm.png" SmallImageSource="Images/Cmm.png" />
+                    <RibbonButton Label="Create New Sensor" Command="local:RoutedCommands.CreateNewSensor" LargeImageSource="Images/Sensor.png" SmallImageSource="Images/Sensor.png" />
+                </RibbonGroup>
+                <RibbonGroup Header="Delete Resources">
+                    <RibbonButton Label="Delete Selected Resource" Command="local:RoutedCommands.DeleteMeasurementResource" LargeImageSource="Images/Delete.png" SmallImageSource="Images/Delete.png" />
+                </RibbonGroup>
+                <RibbonGroup Header="Copy/Paste Resources"  >
+                    <RibbonSplitButton Label="Copy" Command="local:RoutedCommands.CopyMeasurementResource" LargeImageSource="Images/Copy.png" SmallImageSource="Images/Copy.png">
+                        <RibbonSplitButton.Items>
+                            <RibbonMenuItem Header="Copy Item Only" Command="local:RoutedCommands.CopyMeasurementResource" />
+                            <RibbonMenuItem Header="Copy Item and Children" Command="local:RoutedCommands.CopyMeasurementResourceAndChildren" />
+                        </RibbonSplitButton.Items>
+                    </RibbonSplitButton>
+                    <RibbonButton x:Name="_pasteButton" Label="Paste" Command="local:RoutedCommands.PasteMeasurementResource" LargeImageSource="Images/Paste.png" SmallImageSource="Images/Paste.png" />
+                </RibbonGroup>
+            </RibbonTab>
+        </Ribbon>
+
+        <!--The main view-->
+        <Grid x:Name="_viewHost" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MinWidth="80" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--The MRD Tree View-->
+            <local:TreeView x:Name="_treeView" Grid.Column="0" Margin="0,0,7,0"  />
+
+            <!--Grid Splitter-->
+            <GridSplitter Width="7" />
+
+            <!--The Selected Resource Editors (There is a different one for CMM and for Sensor)-->
+            <Grid Grid.Column="1">
+                <local:CmmEditor x:Name="_cmmEditor" Visibility="Collapsed" />
+                <local:SensorEditor x:Name="_sensorEditor" Visibility="Collapsed" />
+            </Grid>
+
+        </Grid>
+
+    </DockPanel>
+</RibbonWindow>

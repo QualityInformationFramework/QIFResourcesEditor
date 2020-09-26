@@ -1,0 +1,121 @@
+#pragma once
+
+
+
+namespace qif191
+{
+
+namespace t
+{	
+
+class CCharacteristicActualsType : public TypeBase
+{
+public:
+	QIF191_EXPORT CCharacteristicActualsType(xercesc::DOMNode* const& init);
+	QIF191_EXPORT CCharacteristicActualsType(CCharacteristicActualsType const& init);
+	void operator=(CCharacteristicActualsType const& other) { m_node = other.m_node; }
+	static altova::meta::ComplexType StaticInfo() { return altova::meta::ComplexType(types + _altova_ti_t_altova_CCharacteristicActualsType); }
+	MemberElement<t::CCharacteristicActualBaseType, _altova_mi_t_altova_CCharacteristicActualsType_altova_CharacteristicActual> CharacteristicActual;
+	struct CharacteristicActual { typedef Iterator<t::CCharacteristicActualBaseType> iterator; };
+	MemberElement<t::CAngleBetweenCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_AngleBetweenCharacteristicActual> AngleBetweenCharacteristicActual;
+	struct AngleBetweenCharacteristicActual { typedef Iterator<t::CAngleBetweenCharacteristicActualType> iterator; };
+	MemberElement<t::CAngleCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_AngleCharacteristicActual> AngleCharacteristicActual;
+	struct AngleCharacteristicActual { typedef Iterator<t::CAngleCharacteristicActualType> iterator; };
+	MemberElement<t::CAngleFromCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_AngleFromCharacteristicActual> AngleFromCharacteristicActual;
+	struct AngleFromCharacteristicActual { typedef Iterator<t::CAngleFromCharacteristicActualType> iterator; };
+	MemberElement<t::CAngularCoordinateCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_AngularCoordinateCharacteristicActual> AngularCoordinateCharacteristicActual;
+	struct AngularCoordinateCharacteristicActual { typedef Iterator<t::CAngularCoordinateCharacteristicActualType> iterator; };
+	MemberElement<t::CAngularityCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_AngularityCharacteristicActual> AngularityCharacteristicActual;
+	struct AngularityCharacteristicActual { typedef Iterator<t::CAngularityCharacteristicActualType> iterator; };
+	MemberElement<t::CChordCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_ChordCharacteristicActual> ChordCharacteristicActual;
+	struct ChordCharacteristicActual { typedef Iterator<t::CChordCharacteristicActualType> iterator; };
+	MemberElement<t::CCircularRunoutCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_CircularRunoutCharacteristicActual> CircularRunoutCharacteristicActual;
+	struct CircularRunoutCharacteristicActual { typedef Iterator<t::CCircularRunoutCharacteristicActualType> iterator; };
+	MemberElement<t::CCircularityCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_CircularityCharacteristicActual> CircularityCharacteristicActual;
+	struct CircularityCharacteristicActual { typedef Iterator<t::CCircularityCharacteristicActualType> iterator; };
+	MemberElement<t::CConcentricityCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_ConcentricityCharacteristicActual> ConcentricityCharacteristicActual;
+	struct ConcentricityCharacteristicActual { typedef Iterator<t::CConcentricityCharacteristicActualType> iterator; };
+	MemberElement<t::CCurveLengthCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_CurveLengthCharacteristicActual> CurveLengthCharacteristicActual;
+	struct CurveLengthCharacteristicActual { typedef Iterator<t::CCurveLengthCharacteristicActualType> iterator; };
+	MemberElement<t::CCylindricityCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_CylindricityCharacteristicActual> CylindricityCharacteristicActual;
+	struct CylindricityCharacteristicActual { typedef Iterator<t::CCylindricityCharacteristicActualType> iterator; };
+	MemberElement<t::CDepthCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_DepthCharacteristicActual> DepthCharacteristicActual;
+	struct DepthCharacteristicActual { typedef Iterator<t::CDepthCharacteristicActualType> iterator; };
+	MemberElement<t::CDiameterCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_DiameterCharacteristicActual> DiameterCharacteristicActual;
+	struct DiameterCharacteristicActual { typedef Iterator<t::CDiameterCharacteristicActualType> iterator; };
+	MemberElement<t::CDistanceBetweenCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_DistanceBetweenCharacteristicActual> DistanceBetweenCharacteristicActual;
+	struct DistanceBetweenCharacteristicActual { typedef Iterator<t::CDistanceBetweenCharacteristicActualType> iterator; };
+	MemberElement<t::CDistanceFromCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_DistanceFromCharacteristicActual> DistanceFromCharacteristicActual;
+	struct DistanceFromCharacteristicActual { typedef Iterator<t::CDistanceFromCharacteristicActualType> iterator; };
+	MemberElement<t::CFlatnessCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_FlatnessCharacteristicActual> FlatnessCharacteristicActual;
+	struct FlatnessCharacteristicActual { typedef Iterator<t::CFlatnessCharacteristicActualType> iterator; };
+	MemberElement<t::CHeightCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_HeightCharacteristicActual> HeightCharacteristicActual;
+	struct HeightCharacteristicActual { typedef Iterator<t::CHeightCharacteristicActualType> iterator; };
+	MemberElement<t::CLengthCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_LengthCharacteristicActual> LengthCharacteristicActual;
+	struct LengthCharacteristicActual { typedef Iterator<t::CLengthCharacteristicActualType> iterator; };
+	MemberElement<t::CLineProfileCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_LineProfileCharacteristicActual> LineProfileCharacteristicActual;
+	struct LineProfileCharacteristicActual { typedef Iterator<t::CLineProfileCharacteristicActualType> iterator; };
+	MemberElement<t::CLinearCoordinateCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_LinearCoordinateCharacteristicActual> LinearCoordinateCharacteristicActual;
+	struct LinearCoordinateCharacteristicActual { typedef Iterator<t::CLinearCoordinateCharacteristicActualType> iterator; };
+	MemberElement<t::CParallelismCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_ParallelismCharacteristicActual> ParallelismCharacteristicActual;
+	struct ParallelismCharacteristicActual { typedef Iterator<t::CParallelismCharacteristicActualType> iterator; };
+	MemberElement<t::CPerpendicularityCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_PerpendicularityCharacteristicActual> PerpendicularityCharacteristicActual;
+	struct PerpendicularityCharacteristicActual { typedef Iterator<t::CPerpendicularityCharacteristicActualType> iterator; };
+	MemberElement<t::CPointProfileCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_PointProfileCharacteristicActual> PointProfileCharacteristicActual;
+	struct PointProfileCharacteristicActual { typedef Iterator<t::CPointProfileCharacteristicActualType> iterator; };
+	MemberElement<t::CPositionCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_PositionCharacteristicActual> PositionCharacteristicActual;
+	struct PositionCharacteristicActual { typedef Iterator<t::CPositionCharacteristicActualType> iterator; };
+	MemberElement<t::CRadiusCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_RadiusCharacteristicActual> RadiusCharacteristicActual;
+	struct RadiusCharacteristicActual { typedef Iterator<t::CRadiusCharacteristicActualType> iterator; };
+	MemberElement<t::CSquareCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_SquareCharacteristicActual> SquareCharacteristicActual;
+	struct SquareCharacteristicActual { typedef Iterator<t::CSquareCharacteristicActualType> iterator; };
+	MemberElement<t::CStraightnessCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_StraightnessCharacteristicActual> StraightnessCharacteristicActual;
+	struct StraightnessCharacteristicActual { typedef Iterator<t::CStraightnessCharacteristicActualType> iterator; };
+	MemberElement<t::CSurfaceProfileCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_SurfaceProfileCharacteristicActual> SurfaceProfileCharacteristicActual;
+	struct SurfaceProfileCharacteristicActual { typedef Iterator<t::CSurfaceProfileCharacteristicActualType> iterator; };
+	MemberElement<t::CSurfaceProfileNonUniformCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_SurfaceProfileNonUniformCharacteristicActual> SurfaceProfileNonUniformCharacteristicActual;
+	struct SurfaceProfileNonUniformCharacteristicActual { typedef Iterator<t::CSurfaceProfileNonUniformCharacteristicActualType> iterator; };
+	MemberElement<t::CSurfaceTextureCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_SurfaceTextureCharacteristicActual> SurfaceTextureCharacteristicActual;
+	struct SurfaceTextureCharacteristicActual { typedef Iterator<t::CSurfaceTextureCharacteristicActualType> iterator; };
+	MemberElement<t::CSymmetryCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_SymmetryCharacteristicActual> SymmetryCharacteristicActual;
+	struct SymmetryCharacteristicActual { typedef Iterator<t::CSymmetryCharacteristicActualType> iterator; };
+	MemberElement<t::CThicknessCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_ThicknessCharacteristicActual> ThicknessCharacteristicActual;
+	struct ThicknessCharacteristicActual { typedef Iterator<t::CThicknessCharacteristicActualType> iterator; };
+	MemberElement<t::CThreadCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_ThreadCharacteristicActual> ThreadCharacteristicActual;
+	struct ThreadCharacteristicActual { typedef Iterator<t::CThreadCharacteristicActualType> iterator; };
+	MemberElement<t::CTotalRunoutCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_TotalRunoutCharacteristicActual> TotalRunoutCharacteristicActual;
+	struct TotalRunoutCharacteristicActual { typedef Iterator<t::CTotalRunoutCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedAngularCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedAngularCharacteristicActual> UserDefinedAngularCharacteristicActual;
+	struct UserDefinedAngularCharacteristicActual { typedef Iterator<t::CUserDefinedAngularCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedAreaCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedAreaCharacteristicActual> UserDefinedAreaCharacteristicActual;
+	struct UserDefinedAreaCharacteristicActual { typedef Iterator<t::CUserDefinedAreaCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedAttributeCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedAttributeCharacteristicActual> UserDefinedAttributeCharacteristicActual;
+	struct UserDefinedAttributeCharacteristicActual { typedef Iterator<t::CUserDefinedAttributeCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedForceCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedForceCharacteristicActual> UserDefinedForceCharacteristicActual;
+	struct UserDefinedForceCharacteristicActual { typedef Iterator<t::CUserDefinedForceCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedLinearCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedLinearCharacteristicActual> UserDefinedLinearCharacteristicActual;
+	struct UserDefinedLinearCharacteristicActual { typedef Iterator<t::CUserDefinedLinearCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedMassCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedMassCharacteristicActual> UserDefinedMassCharacteristicActual;
+	struct UserDefinedMassCharacteristicActual { typedef Iterator<t::CUserDefinedMassCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedPressureCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedPressureCharacteristicActual> UserDefinedPressureCharacteristicActual;
+	struct UserDefinedPressureCharacteristicActual { typedef Iterator<t::CUserDefinedPressureCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedSpeedCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedSpeedCharacteristicActual> UserDefinedSpeedCharacteristicActual;
+	struct UserDefinedSpeedCharacteristicActual { typedef Iterator<t::CUserDefinedSpeedCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedTemperatureCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedTemperatureCharacteristicActual> UserDefinedTemperatureCharacteristicActual;
+	struct UserDefinedTemperatureCharacteristicActual { typedef Iterator<t::CUserDefinedTemperatureCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedTimeCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedTimeCharacteristicActual> UserDefinedTimeCharacteristicActual;
+	struct UserDefinedTimeCharacteristicActual { typedef Iterator<t::CUserDefinedTimeCharacteristicActualType> iterator; };
+	MemberElement<t::CUserDefinedUnitCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_UserDefinedUnitCharacteristicActual> UserDefinedUnitCharacteristicActual;
+	struct UserDefinedUnitCharacteristicActual { typedef Iterator<t::CUserDefinedUnitCharacteristicActualType> iterator; };
+	MemberElement<t::CWidthCharacteristicActualType, _altova_mi_t_altova_CCharacteristicActualsType_altova_WidthCharacteristicActual> WidthCharacteristicActual;
+	struct WidthCharacteristicActual { typedef Iterator<t::CWidthCharacteristicActualType> iterator; };
+	QIF191_EXPORT void SetXsiType();
+};
+
+
+
+} // namespace t
+
+}	// namespace qif191
+
+//#endif // _ALTOVA_INCLUDED_QIFDocument_ALTOVA_t_ALTOVA_CCharacteristicActualsType

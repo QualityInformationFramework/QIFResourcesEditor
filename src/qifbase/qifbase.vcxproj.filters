@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b09ce1cc-3e9d-4d2b-805b-e5fc36d73198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{33ed7340-4583-4d53-84fe-d3c48b15eea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Altova">
+      <UniqueIdentifier>{46eb4e12-f0c4-4e59-8579-1c505bdc6536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\AltovaXML">
+      <UniqueIdentifier>{892a89ad-9072-45ff-b01f-03328c745026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Data">
+      <UniqueIdentifier>{e7e5ef23-82af-478a-b3f8-0eb866aa001e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Altova">
+      <UniqueIdentifier>{b36929ba-51c1-428d-a4bc-9027b288ab12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AltovaXML">
+      <UniqueIdentifier>{f8a00506-d5a0-4624-a435-6fab269467de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Data">
+      <UniqueIdentifier>{ecb3a21d-6087-4d98-8cb4-7e01b37757ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\.ProjectFiles">
+      <UniqueIdentifier>{6bebc7c1-0ca3-48c7-a373-2f15bcdcfe6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\.ProjectFiles">
+      <UniqueIdentifier>{67cd5e22-c11c-4eff-b0c3-0f9e3eeab015}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="decl_qifbase.h">
+      <Filter>Headers\.ProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers\.ProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers\.ProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\AltovaException.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\exception.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\SchemaTypes.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\StructInfo.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\xs-datetime.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\xs-types.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\Altova.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="Altova\AltovaDefs.h">
+      <Filter>Headers\Altova</Filter>
+    </ClInclude>
+    <ClInclude Include="AltovaXML\XercesString.h">
+      <Filter>Headers\AltovaXML</Filter>
+    </ClInclude>
+    <ClInclude Include="AltovaXML\XmlException.h">
+      <Filter>Headers\AltovaXML</Filter>
+    </ClInclude>
+    <ClInclude Include="AltovaXML\AltovaXMLAPI.h">
+      <Filter>Headers\AltovaXML</Filter>
+    </ClInclude>
+    <ClInclude Include="AltovaXML\Node.h">
+      <Filter>Headers\AltovaXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmScalesType.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmSoftwareCompensationType.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmType.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\SensorParameters.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\SensorPerformanceTest.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\SensorTechnology.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\SensorType.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Units.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmAxisOrientation.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmErrorB89.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmErrorIso10360.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmParameters.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CmmPerformanceTest.h">
+      <Filter>Headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AQifResourcesDocument.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source\.ProjectFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Altova\StructInfo.cpp">
+      <Filter>Source\Altova</Filter>
+    </ClCompile>
+    <ClCompile Include="Altova\xs-datetime.cpp">
+      <Filter>Source\Altova</Filter>
+    </ClCompile>
+    <ClCompile Include="Altova\xs-types.cpp">
+      <Filter>Source\Altova</Filter>
+    </ClCompile>
+    <ClCompile Include="Altova\AltovaException.cpp">
+      <Filter>Source\Altova</Filter>
+    </ClCompile>
+    <ClCompile Include="Altova\SchemaTypes.cpp">
+      <Filter>Source\Altova</Filter>
+    </ClCompile>
+    <ClCompile Include="AltovaXML\XmlException.cpp">
+      <Filter>Source\AltovaXML</Filter>
+    </ClCompile>
+    <ClCompile Include="AltovaXML\Node.cpp">
+      <Filter>Source\AltovaXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\CmmParameters.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\SensorParameters.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\CmmErrorB89.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\CmmErrorIso10360.cpp">
+      <Filter>Source\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AQifResourcesDocument.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="qifbase.rc">
+      <Filter>Source\.ProjectFiles</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

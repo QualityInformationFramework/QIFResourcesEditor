@@ -1,0 +1,131 @@
+#pragma once
+
+
+
+namespace qif191
+{
+
+namespace t
+{	
+
+class CCharacteristicsStatsType : public TypeBase
+{
+public:
+	QIF191_EXPORT CCharacteristicsStatsType(xercesc::DOMNode* const& init);
+	QIF191_EXPORT CCharacteristicsStatsType(CCharacteristicsStatsType const& init);
+	void operator=(CCharacteristicsStatsType const& other) { m_node = other.m_node; }
+	static altova::meta::ComplexType StaticInfo() { return altova::meta::ComplexType(types + _altova_ti_t_altova_CCharacteristicsStatsType); }
+	MemberElement<t::CCharacteristicStatsEvalBaseType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_CharacteristicStats> CharacteristicStats;
+	struct CharacteristicStats { typedef Iterator<t::CCharacteristicStatsEvalBaseType> iterator; };
+	MemberElement<t::CAngleBetweenCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_AngleBetweenCharacteristicStats> AngleBetweenCharacteristicStats;
+	struct AngleBetweenCharacteristicStats { typedef Iterator<t::CAngleBetweenCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CAngleCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_AngleCharacteristicStats> AngleCharacteristicStats;
+	struct AngleCharacteristicStats { typedef Iterator<t::CAngleCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CAngleFromCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_AngleFromCharacteristicStats> AngleFromCharacteristicStats;
+	struct AngleFromCharacteristicStats { typedef Iterator<t::CAngleFromCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CAngularCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_AngularCharacteristicStats> AngularCharacteristicStats;
+	struct AngularCharacteristicStats { typedef Iterator<t::CAngularCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CAngularCoordinateCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_AngularCoordinateCharacteristicStats> AngularCoordinateCharacteristicStats;
+	struct AngularCoordinateCharacteristicStats { typedef Iterator<t::CAngularCoordinateCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CAngularityCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_AngularityCharacteristicStats> AngularityCharacteristicStats;
+	struct AngularityCharacteristicStats { typedef Iterator<t::CAngularityCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CChordCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_ChordCharacteristicStats> ChordCharacteristicStats;
+	struct ChordCharacteristicStats { typedef Iterator<t::CChordCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CCircularRunoutCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_CircularRunoutCharacteristicStats> CircularRunoutCharacteristicStats;
+	struct CircularRunoutCharacteristicStats { typedef Iterator<t::CCircularRunoutCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CCircularityCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_CircularityCharacteristicStats> CircularityCharacteristicStats;
+	struct CircularityCharacteristicStats { typedef Iterator<t::CCircularityCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CConcentricityCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_ConcentricityCharacteristicStats> ConcentricityCharacteristicStats;
+	struct ConcentricityCharacteristicStats { typedef Iterator<t::CConcentricityCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CCurveLengthCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_CurveLengthCharacteristicStats> CurveLengthCharacteristicStats;
+	struct CurveLengthCharacteristicStats { typedef Iterator<t::CCurveLengthCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CCylindricityCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_CylindricityCharacteristicStats> CylindricityCharacteristicStats;
+	struct CylindricityCharacteristicStats { typedef Iterator<t::CCylindricityCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CDepthCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_DepthCharacteristicStats> DepthCharacteristicStats;
+	struct DepthCharacteristicStats { typedef Iterator<t::CDepthCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CDiameterCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_DiameterCharacteristicStats> DiameterCharacteristicStats;
+	struct DiameterCharacteristicStats { typedef Iterator<t::CDiameterCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CDistanceBetweenCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_DistanceBetweenCharacteristicStats> DistanceBetweenCharacteristicStats;
+	struct DistanceBetweenCharacteristicStats { typedef Iterator<t::CDistanceBetweenCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CDistanceFromCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_DistanceFromCharacteristicStats> DistanceFromCharacteristicStats;
+	struct DistanceFromCharacteristicStats { typedef Iterator<t::CDistanceFromCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CFlatnessCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_FlatnessCharacteristicStats> FlatnessCharacteristicStats;
+	struct FlatnessCharacteristicStats { typedef Iterator<t::CFlatnessCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CGeometricCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_GeometricCharacteristicStats> GeometricCharacteristicStats;
+	struct GeometricCharacteristicStats { typedef Iterator<t::CGeometricCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CHeightCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_HeightCharacteristicStats> HeightCharacteristicStats;
+	struct HeightCharacteristicStats { typedef Iterator<t::CHeightCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CLengthCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_LengthCharacteristicStats> LengthCharacteristicStats;
+	struct LengthCharacteristicStats { typedef Iterator<t::CLengthCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CLineProfileCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_LineProfileCharacteristicStats> LineProfileCharacteristicStats;
+	struct LineProfileCharacteristicStats { typedef Iterator<t::CLineProfileCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CLinearCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_LinearCharacteristicStats> LinearCharacteristicStats;
+	struct LinearCharacteristicStats { typedef Iterator<t::CLinearCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CLinearCoordinateCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_LinearCoordinateCharacteristicStats> LinearCoordinateCharacteristicStats;
+	struct LinearCoordinateCharacteristicStats { typedef Iterator<t::CLinearCoordinateCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CLocationCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_LocationCharacteristicStats> LocationCharacteristicStats;
+	struct LocationCharacteristicStats { typedef Iterator<t::CLocationCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::COrientationCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_OrientationCharacteristicStats> OrientationCharacteristicStats;
+	struct OrientationCharacteristicStats { typedef Iterator<t::COrientationCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CParallelismCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_ParallelismCharacteristicStats> ParallelismCharacteristicStats;
+	struct ParallelismCharacteristicStats { typedef Iterator<t::CParallelismCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CPerpendicularityCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_PerpendicularityCharacteristicStats> PerpendicularityCharacteristicStats;
+	struct PerpendicularityCharacteristicStats { typedef Iterator<t::CPerpendicularityCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CPointProfileCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_PointProfileCharacteristicStats> PointProfileCharacteristicStats;
+	struct PointProfileCharacteristicStats { typedef Iterator<t::CPointProfileCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CPositionCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_PositionCharacteristicStats> PositionCharacteristicStats;
+	struct PositionCharacteristicStats { typedef Iterator<t::CPositionCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CRadiusCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_RadiusCharacteristicStats> RadiusCharacteristicStats;
+	struct RadiusCharacteristicStats { typedef Iterator<t::CRadiusCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CSquareCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_SquareCharacteristicStats> SquareCharacteristicStats;
+	struct SquareCharacteristicStats { typedef Iterator<t::CSquareCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CStraightnessCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_StraightnessCharacteristicStats> StraightnessCharacteristicStats;
+	struct StraightnessCharacteristicStats { typedef Iterator<t::CStraightnessCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CSurfaceProfileCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_SurfaceProfileCharacteristicStats> SurfaceProfileCharacteristicStats;
+	struct SurfaceProfileCharacteristicStats { typedef Iterator<t::CSurfaceProfileCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CSurfaceProfileNonUniformCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_SurfaceProfileNonUniformCharacteristicStats> SurfaceProfileNonUniformCharacteristicStats;
+	struct SurfaceProfileNonUniformCharacteristicStats { typedef Iterator<t::CSurfaceProfileNonUniformCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CSurfaceTextureCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_SurfaceTextureCharacteristicStats> SurfaceTextureCharacteristicStats;
+	struct SurfaceTextureCharacteristicStats { typedef Iterator<t::CSurfaceTextureCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CSymmetryCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_SymmetryCharacteristicStats> SymmetryCharacteristicStats;
+	struct SymmetryCharacteristicStats { typedef Iterator<t::CSymmetryCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CThicknessCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_ThicknessCharacteristicStats> ThicknessCharacteristicStats;
+	struct ThicknessCharacteristicStats { typedef Iterator<t::CThicknessCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CThreadCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_ThreadCharacteristicStats> ThreadCharacteristicStats;
+	struct ThreadCharacteristicStats { typedef Iterator<t::CThreadCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CTotalRunoutCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_TotalRunoutCharacteristicStats> TotalRunoutCharacteristicStats;
+	struct TotalRunoutCharacteristicStats { typedef Iterator<t::CTotalRunoutCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedAngularCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedAngularCharacteristicStats> UserDefinedAngularCharacteristicStats;
+	struct UserDefinedAngularCharacteristicStats { typedef Iterator<t::CUserDefinedAngularCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedAreaCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedAreaCharacteristicStats> UserDefinedAreaCharacteristicStats;
+	struct UserDefinedAreaCharacteristicStats { typedef Iterator<t::CUserDefinedAreaCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedAttributeCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedAttributeCharacteristicStats> UserDefinedAttributeCharacteristicStats;
+	struct UserDefinedAttributeCharacteristicStats { typedef Iterator<t::CUserDefinedAttributeCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedForceCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedForceCharacteristicStats> UserDefinedForceCharacteristicStats;
+	struct UserDefinedForceCharacteristicStats { typedef Iterator<t::CUserDefinedForceCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedLinearCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedLinearCharacteristicStats> UserDefinedLinearCharacteristicStats;
+	struct UserDefinedLinearCharacteristicStats { typedef Iterator<t::CUserDefinedLinearCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedMassCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedMassCharacteristicStats> UserDefinedMassCharacteristicStats;
+	struct UserDefinedMassCharacteristicStats { typedef Iterator<t::CUserDefinedMassCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedPressureCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedPressureCharacteristicStats> UserDefinedPressureCharacteristicStats;
+	struct UserDefinedPressureCharacteristicStats { typedef Iterator<t::CUserDefinedPressureCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedSpeedCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedSpeedCharacteristicStats> UserDefinedSpeedCharacteristicStats;
+	struct UserDefinedSpeedCharacteristicStats { typedef Iterator<t::CUserDefinedSpeedCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedTemperatureCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedTemperatureCharacteristicStats> UserDefinedTemperatureCharacteristicStats;
+	struct UserDefinedTemperatureCharacteristicStats { typedef Iterator<t::CUserDefinedTemperatureCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedTimeCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedTimeCharacteristicStats> UserDefinedTimeCharacteristicStats;
+	struct UserDefinedTimeCharacteristicStats { typedef Iterator<t::CUserDefinedTimeCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CUserDefinedUnitCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_UserDefinedUnitCharacteristicStats> UserDefinedUnitCharacteristicStats;
+	struct UserDefinedUnitCharacteristicStats { typedef Iterator<t::CUserDefinedUnitCharacteristicStatsEvalType> iterator; };
+	MemberElement<t::CWidthCharacteristicStatsEvalType, _altova_mi_t_altova_CCharacteristicsStatsType_altova_WidthCharacteristicStats> WidthCharacteristicStats;
+	struct WidthCharacteristicStats { typedef Iterator<t::CWidthCharacteristicStatsEvalType> iterator; };
+	QIF191_EXPORT void SetXsiType();
+};
+
+
+
+} // namespace t
+
+}	// namespace qif191
+
+//#endif // _ALTOVA_INCLUDED_QIFDocument_ALTOVA_t_ALTOVA_CCharacteristicsStatsType

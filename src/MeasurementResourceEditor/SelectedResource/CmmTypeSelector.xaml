@@ -1,0 +1,79 @@
+﻿<Window 
+    x:Class="MeasurementResourceEditor.CmmTypeSelector"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="CmmTypeSelector" 
+    Height="560" 
+    Width="700"
+    WindowStartupLocation="CenterOwner"
+    WindowStyle="None"
+    ResizeMode="NoResize"
+    ShowInTaskbar="False"
+    PreviewKeyDown="Window_PreviewKeyDown"
+    >
+    <Border BorderBrush="Black" BorderThickness="3" CornerRadius="5">
+        <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Margin="1,5">
+                <RadioButton x:Name="MovingBridge" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmMovingBridge.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Moving Bridge</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="FixedBridge" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmFixedBridge.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Fixed Bridge</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="Column" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmColumn.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Column</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="FixedTableCantilever" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmFixedTableCantilever.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Fixed Table Cantilever</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="MovingRamHorizontalArm" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmMovingRamHorizontalArm.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Moving Ram Horizontal Arm</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="MovingTableHorizontalArm" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmMovingTableHorizontalArm.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Moving Table Horizontal Arm</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="Gantry" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmGantry.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Gantry</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="LShapedBridge" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmLShapedBridge.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">L-Shaped Bridge</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="FixedTableHorizontalArm" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmFixedTableHorizontalArm.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Fixed Table Horizontal Arm</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="1,5" >
+                <RadioButton x:Name="MovingTableCantileverArm" Style="{StaticResource {x:Type ToggleButton}}" GroupName="CmmTypes" Click="ToggleButton_Click" Width="160">
+                    <Image Source="/MeasurementResourceEditor;component/images/CmmMovingTableCantileverArm.png" Stretch="None"/>
+                </RadioButton>
+                <TextBlock HorizontalAlignment="Center">Moving Table Cantilever Arm</TextBlock>
+            </StackPanel>
+            <Button IsCancel="True" Visibility="Collapsed" />
+        </WrapPanel>
+    </Border>
+</Window>
