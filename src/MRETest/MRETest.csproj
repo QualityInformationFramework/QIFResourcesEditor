@@ -96,20 +96,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="TestFiles\MrdV2.mrd" />
-    <None Include="TestFiles\test_input.qif" />
-    <None Include="TestFiles\test_output.qif" />
-    <None Include="TestFiles\test_output1.qif" />
-    <None Include="TestFiles\test_output2.qif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestFiles\sensor.3.0.0.qif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestFiles\XMLFile1.qif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestFiles\device.3.0.0.qif" />
+    <None Include="TestFiles\MRD\MrdV2.mrd" />
+    <None Include="TestFiles\QIF.1.9.1\test_input.qif" />
+    <None Include="TestFiles\QIF.3.0.0\1.v3.exam.qif" />
+    <None Include="TestFiles\QIF.3.0.0\1.v3.qif" />
+    <None Include="TestFiles\QIF.3.0.0\2.units.exam.qif" />
+    <None Include="TestFiles\QIF.3.0.0\2.units.qif" />
+    <None Include="TestFiles\QIF.3.0.0\3.units.exam.qif" />
+    <None Include="TestFiles\QIF.3.0.0\3.units.qif" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
