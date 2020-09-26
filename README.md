@@ -50,7 +50,7 @@ _Note: there can be a long delay when installing the icu package when executing 
 
 ## Copyright
 
-Copyright 2018-2020, Capvidia and QIF Resources Editor contributors
+Copyright 2018-2020, Capvidia, Metrosage, and project contributors
 
 https://www.capvidia.com/
 
