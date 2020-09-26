@@ -1,0 +1,2349 @@
+<QIFDocument versionQIF="3.0.0" idMax="58" xmlns="http://qifstandards.org/xsd/qif3">
+  <QPId>cb4b12da-ad43-4f87-94fa-efd9cedb5dd1</QPId>
+  <FileUnits xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://qifstandards.org/xsd/qif3">
+    <PrimaryUnits>
+      <LinearUnit>
+        <SIUnitName>meter</SIUnitName>
+        <UnitName>mm</UnitName>
+      </LinearUnit>
+      <PressureUnit>
+        <SIUnitName>pascal</SIUnitName>
+        <UnitName>kpa</UnitName>
+      </PressureUnit>
+      <TemperatureUnit>
+        <SIUnitName>kelvin</SIUnitName>
+        <UnitName>celsius</UnitName>
+      </TemperatureUnit>
+    </PrimaryUnits>
+  </FileUnits>
+  <MeasurementResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://qifstandards.org/xsd/qif3">
+    <MeasurementDevices n="15">
+      <CartesianCMM id="44">
+        <Name>Leitz PMM 866</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>800</XAxisLength>
+          <YAxisLength>600</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <LesserError>
+                <MaxErrorConstant>0.0025</MaxErrorConstant>
+                <LinearError>
+                  <BaseError>0.0006</BaseError>
+                  <ErrorRate>0.0016</ErrorRate>
+                </LinearError>
+              </LesserError>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0</XLinearAccuracy>
+              <YLinearAccuracy>0</YLinearAccuracy>
+              <ZLinearAccuracy>0</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0</VolumetricPerformance>
+              <Repeatability>0</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="45">
+        <Name>ISO 10360 CMM, same probes, with rotary table</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="SINGLE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.06</AxialError>
+            <RadialError>0.06</RadialError>
+            <TangentialError>0.06</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <LesserError>
+                <MaxErrorConstant>0.03</MaxErrorConstant>
+                <LinearError>
+                  <BaseError>0.01</BaseError>
+                  <ErrorRate>0.02</ErrorRate>
+                </LinearError>
+              </LesserError>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0</XLinearAccuracy>
+              <YLinearAccuracy>0</YLinearAccuracy>
+              <ZLinearAccuracy>0</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0</VolumetricPerformance>
+              <Repeatability>0</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>4</Id>
+          <Id>5</Id>
+          <Id>6</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="46">
+        <Name>CMM Model D</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0085</XLinearAccuracy>
+              <YLinearAccuracy>0.0085</YLinearAccuracy>
+              <ZLinearAccuracy>0.008</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.024</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0138</VolumetricPerformance>
+              <Repeatability>0.006</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>7</Id>
+          <Id>8</Id>
+          <Id>9</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="47">
+        <Name>CMM Model A with RT</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.00048</AxialError>
+            <RadialError>0.00048</RadialError>
+            <TangentialError>0.00048</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0012</XLinearAccuracy>
+              <YLinearAccuracy>0.0012</YLinearAccuracy>
+              <ZLinearAccuracy>0.00093</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.005</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0031</VolumetricPerformance>
+              <Repeatability>0.00048</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>10</Id>
+          <Id>11</Id>
+          <Id>12</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="48">
+        <Name>CMM Model B with RT</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.004</AxialError>
+            <RadialError>0.004</RadialError>
+            <TangentialError>0.004</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0035</XLinearAccuracy>
+              <YLinearAccuracy>0.0035</YLinearAccuracy>
+              <ZLinearAccuracy>0.0032</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.012</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0075</VolumetricPerformance>
+              <Repeatability>0.004</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>13</Id>
+          <Id>14</Id>
+          <Id>15</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="49">
+        <Name>CMM Model C with RT</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.004</AxialError>
+            <RadialError>0.004</RadialError>
+            <TangentialError>0.004</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0057</XLinearAccuracy>
+              <YLinearAccuracy>0.0057</YLinearAccuracy>
+              <ZLinearAccuracy>0.0053</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.009</VolumetricPerformance>
+              <Repeatability>0.004</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>16</Id>
+          <Id>17</Id>
+          <Id>18</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="50">
+        <Name>CMM Model C</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0057</XLinearAccuracy>
+              <YLinearAccuracy>0.0057</YLinearAccuracy>
+              <ZLinearAccuracy>0.0053</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.009</VolumetricPerformance>
+              <Repeatability>0.004</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>19</Id>
+          <Id>20</Id>
+          <Id>21</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="51">
+        <Name>CMM Model D with RT</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.006</AxialError>
+            <RadialError>0.006</RadialError>
+            <TangentialError>0.006</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0085</XLinearAccuracy>
+              <YLinearAccuracy>0.0085</YLinearAccuracy>
+              <ZLinearAccuracy>0.008</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.024</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0138</VolumetricPerformance>
+              <Repeatability>0.006</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>22</Id>
+          <Id>23</Id>
+          <Id>24</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="52">
+        <Name>Perfect CMM ENV</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="0" />
+          <AttributeStr name="SoftwareCompensation" value="FULL" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>1000</YAxisLength>
+          <ZAxisLength>1000</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <SensorIds n="1">
+          <Id>25</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="53">
+        <Name>CMM Model A</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0012</XLinearAccuracy>
+              <YLinearAccuracy>0.0012</YLinearAccuracy>
+              <ZLinearAccuracy>0.00093</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.005</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0031</VolumetricPerformance>
+              <Repeatability>0.00048</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>26</Id>
+          <Id>27</Id>
+          <Id>28</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="54">
+        <Name>Perfect CMM</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="0" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <SensorIds n="3">
+          <Id>29</Id>
+          <Id>30</Id>
+          <Id>31</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="55">
+        <Name>Perfect CMM, same probes, with rotary table</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="0" />
+          <AttributeStr name="SoftwareCompensation" value="FULL" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>LASER_INTERFEROMETER_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>LASER_INTERFEROMETER_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>LASER_INTERFEROMETER_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.06</AxialError>
+            <RadialError>0.06</RadialError>
+            <TangentialError>0.06</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <SensorIds n="3">
+          <Id>32</Id>
+          <Id>33</Id>
+          <Id>34</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="56">
+        <Name>CMM do Brasil</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="0.30000000000000071" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>550</XAxisLength>
+          <YAxisLength>500</YAxisLength>
+          <ZAxisLength>400</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.5</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.5</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.5</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0012</XLinearAccuracy>
+              <YLinearAccuracy>0.0012</YLinearAccuracy>
+              <ZLinearAccuracy>0.001</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0031</VolumetricPerformance>
+              <Repeatability>0.0002</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>35</Id>
+          <Id>36</Id>
+          <Id>37</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="57">
+        <Name>CMM Model B</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0.0035</XLinearAccuracy>
+              <YLinearAccuracy>0.0035</YLinearAccuracy>
+              <ZLinearAccuracy>0.0032</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0.012</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0.0075</VolumetricPerformance>
+              <Repeatability>0.004</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <MaxErrorConstant>0</MaxErrorConstant>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>38</Id>
+          <Id>39</Id>
+          <Id>40</Id>
+        </SensorIds>
+      </CartesianCMM>
+      <CartesianCMM id="58">
+        <Name>Leitz PMM 866 with RT</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="0" />
+          <AttributeD1 name="LowerExtentY" value="0" />
+          <AttributeD1 name="LowerExtentZ" value="0" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="1" />
+          <AttributeStr name="SoftwareCompensation" value="NONE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>20</MaxAmbientTemperature>
+          <MinAmbientTemperature>20</MinAmbientTemperature>
+          <MaxAmbientAirPressure>101.325</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>101.325</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>800</XAxisLength>
+          <YAxisLength>600</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>ELECTROOPTICAL_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <RotaryTable>
+          <LocationOnCMM>400 300 220</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.0002</AxialError>
+            <RadialError>0.0002</RadialError>
+            <TangentialError>0.0002</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <Accuracies n="2">
+          <CartesianCMMAccuracy>
+            <CartesianCMMISO10360Test>
+              <LesserError>
+                <MaxErrorConstant>0.0025</MaxErrorConstant>
+                <LinearError>
+                  <BaseError>0.0006</BaseError>
+                  <ErrorRate>0.0016</ErrorRate>
+                </LinearError>
+              </LesserError>
+            </CartesianCMMISO10360Test>
+          </CartesianCMMAccuracy>
+          <CartesianCMMAccuracy>
+            <CartesianCMMB89Test>
+              <XLinearAccuracy>0</XLinearAccuracy>
+              <YLinearAccuracy>0</YLinearAccuracy>
+              <ZLinearAccuracy>0</ZLinearAccuracy>
+              <OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+              <VolumetricPerformance>0</VolumetricPerformance>
+              <Repeatability>0</Repeatability>
+            </CartesianCMMB89Test>
+          </CartesianCMMAccuracy>
+        </Accuracies>
+        <SensorIds n="3">
+          <Id>41</Id>
+          <Id>42</Id>
+          <Id>43</Id>
+        </SensorIds>
+      </CartesianCMM>
+    </MeasurementDevices>
+    <DetachableSensors n="43">
+      <SimpleTactileProbeSensor id="1">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.0005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="2">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="3">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="4">
+        <Name>My Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="5">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="6">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="7">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="8">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="9">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="10">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="11">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="12">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="13">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="14">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="15">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="16">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="17">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="18">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="19">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="20">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="21">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="22">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="23">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="24">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="25">
+        <Name>MySensor1</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="0" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <SimpleTactileProbeSensor id="26">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="27">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="28">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="29">
+        <Name>My Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="30">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="31">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="32">
+        <Name>My Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="33">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="34">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="35">
+        <Name>My Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="36">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="37">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0017 0.0001 0.0005 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">80 80 80 80 80</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="38">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="39">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="40">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <SimpleTactileProbeSensor id="41">
+        <Name>Fixed Probe</Name>
+        <Attributes n="10">
+          <AttributeStr name="Technology" value="PIEZOELECTRIC_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="SPECIFIED_STANDARD_DEVIATION" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 50</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerformanceTestB89">
+            <UserDataXML>
+              <PerformanceTestB89 xmlns="">0.006 50</PerformanceTestB89>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceTestVdiVde">
+            <UserDataXML>
+              <PerfomanceTestVdiVde xmlns="">0.007 50</PerfomanceTestVdiVde>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="PerfomanceStandardDeviation">
+            <UserDataXML>
+              <PerfomanceStandardDeviation xmlns="">0.0005 50</PerfomanceStandardDeviation>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </SimpleTactileProbeSensor>
+      <ComplexTactileProbeSensor id="42">
+        <Name>My Articulating Probe</Name>
+        <Attributes n="9">
+          <AttributeStr name="Type" value="SINGLE_TIP_ARTICULATED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.0102 0.0009 0.0037 0.0195 0.0036 0.004 0.0284 0.0065 0.0044 0.0376 0.0097 0.0049</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+          <AttributeD1 name="BAngleAdjustment" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+      <ComplexTactileProbeSensor id="43">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Attributes n="8">
+          <AttributeStr name="Type" value="MULTI_TIP_FIXED" />
+          <AttributeStr name="Technology" value="SWITCHING_PROBE" />
+          <AttributeStr name="ActivePerformanceTest" value="ISO_10360" />
+          <AttributeUser name="PerformanceTestIso10360">
+            <UserDataXML>
+              <PerformanceTestIso10360 xmlns="">0.004 0.004 0.004 0.005 0.005 0.005 0.007 0.007 0.007 0.009 0.009 0.009 0.011 0.011 0.011 0.015 0.015 0.015 0.017 0.017 0.017</PerformanceTestIso10360>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeUser name="StylusLengths">
+            <UserDataXML>
+              <StylusLengths xmlns="">100 50 50 50 50</StylusLengths>
+            </UserDataXML>
+          </AttributeUser>
+          <AttributeD1 name="ExtensionLength" value="100" />
+          <AttributeD1 name="AAngle" value="0" />
+          <AttributeD1 name="BAngle" value="0" />
+        </Attributes>
+      </ComplexTactileProbeSensor>
+    </DetachableSensors>
+  </MeasurementResources>
+</QIFDocument>

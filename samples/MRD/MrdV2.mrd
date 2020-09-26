@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mrd Version="2">
+	<Cmm>
+		<Name>Perfect CMM ENV</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="1000" Z="1000" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>0</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>0</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>0</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>FullCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>None</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0</XLinearAccuracy>
+			<YLinearAccuracy>0</YLinearAccuracy>
+			<ZLinearAccuracy>0</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0</VolumetricPerformance>
+			<Repeatability>0</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>OneValue</ErrorOfIndicationType>
+			<ErrorOfIndication>0</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<Sensor>
+			<Name>MySensor1</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0   50   </Iso10360>
+			<B89>0   50   </B89>
+			<VdiVde>0   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="0" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model A</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0012</XLinearAccuracy>
+			<YLinearAccuracy>0.0012</YLinearAccuracy>
+			<ZLinearAccuracy>0.00093</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.005</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0031</VolumetricPerformance>
+			<Repeatability>0.00048</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>OneValue</ErrorOfIndicationType>
+			<ErrorOfIndication>0</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model B</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0035</XLinearAccuracy>
+			<YLinearAccuracy>0.0035</YLinearAccuracy>
+			<ZLinearAccuracy>0.0032</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.012</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0075</VolumetricPerformance>
+			<Repeatability>0.004</Repeatability>
+		</B89>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model C</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0057</XLinearAccuracy>
+			<YLinearAccuracy>0.0057</YLinearAccuracy>
+			<ZLinearAccuracy>0.0053</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.009</VolumetricPerformance>
+			<Repeatability>0.004</Repeatability>
+		</B89>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model D</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0085</XLinearAccuracy>
+			<YLinearAccuracy>0.0085</YLinearAccuracy>
+			<ZLinearAccuracy>0.008</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.024</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0138</VolumetricPerformance>
+			<Repeatability>0.006</Repeatability>
+		</B89>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model A with RT</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0012</XLinearAccuracy>
+			<YLinearAccuracy>0.0012</YLinearAccuracy>
+			<ZLinearAccuracy>0.00093</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.005</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0031</VolumetricPerformance>
+			<Repeatability>0.00048</Repeatability>
+		</B89>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="500" Y="400" Z="100" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.00048" Radial="0.00048" Tangential="0.00048" />
+		</RotaryTable>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model B with RT</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0035</XLinearAccuracy>
+			<YLinearAccuracy>0.0035</YLinearAccuracy>
+			<ZLinearAccuracy>0.0032</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.012</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0075</VolumetricPerformance>
+			<Repeatability>0.004</Repeatability>
+		</B89>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="500" Y="400" Z="100" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.004" Radial="0.004" Tangential="0.004" />
+		</RotaryTable>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model C with RT</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0057</XLinearAccuracy>
+			<YLinearAccuracy>0.0057</YLinearAccuracy>
+			<ZLinearAccuracy>0.0053</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.009</VolumetricPerformance>
+			<Repeatability>0.004</Repeatability>
+		</B89>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="500" Y="400" Z="100" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.004" Radial="0.004" Tangential="0.004" />
+		</RotaryTable>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM Model D with RT</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0085</XLinearAccuracy>
+			<YLinearAccuracy>0.0085</YLinearAccuracy>
+			<ZLinearAccuracy>0.008</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.024</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0138</VolumetricPerformance>
+			<Repeatability>0.006</Repeatability>
+		</B89>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="500" Y="400" Z="100" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.006" Radial="0.006" Tangential="0.006" />
+		</RotaryTable>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>CMM do Brasil</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="550" Y="500" Z="400" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>0.3</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.5</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>1</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>B89</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0012</XLinearAccuracy>
+			<YLinearAccuracy>0.0012</YLinearAccuracy>
+			<ZLinearAccuracy>0.001</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.0031</VolumetricPerformance>
+			<Repeatability>0.0002</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>OneValue</ErrorOfIndicationType>
+			<ErrorOfIndication>0</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<Sensor>
+			<Name>My Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0017   0.0001   0.0005   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="80" />
+				<Stylus Length="80" />
+				<Stylus Length="80" />
+				<Stylus Length="80" />
+				<Stylus Length="80" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>Perfect CMM</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>0</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>0</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>0</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>None</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.004</XLinearAccuracy>
+			<YLinearAccuracy>0.004</YLinearAccuracy>
+			<ZLinearAccuracy>0.004</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.006</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.008</VolumetricPerformance>
+			<Repeatability>0.006</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>OneValue</ErrorOfIndicationType>
+			<ErrorOfIndication>0</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Left</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<Sensor>
+			<Name>My Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>Perfect CMM, same probes, with rotary table</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Laser</CmmScales>
+		<CmmLaserAirTemperature>20</CmmLaserAirTemperature>
+		<CmmLaserAirTemperatureUncertainty>0</CmmLaserAirTemperatureUncertainty>
+		<CmmLaserAirPressure>101.325</CmmLaserAirPressure>
+		<CmmLaserAirPressureUncertainty>0</CmmLaserAirPressureUncertainty>
+		<CmmLaserAirHumidity>0</CmmLaserAirHumidity>
+		<CmmLaserAirHumidityUncertainty>0</CmmLaserAirHumidityUncertainty>
+		<CmmSoftwareCompensation>FullCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>None</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.004</XLinearAccuracy>
+			<YLinearAccuracy>0.004</YLinearAccuracy>
+			<ZLinearAccuracy>0.004</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.006</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.008</VolumetricPerformance>
+			<Repeatability>0.006</Repeatability>
+		</B89>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="500" Y="400" Z="100" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.06" Radial="0.06" Tangential="0.06" />
+		</RotaryTable>
+		<Sensor>
+			<Name>My Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>ISO 10360 CMM, same probes, with rotary table</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="1000" Y="800" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>SingleTemperatureAssumed</CmmSoftwareCompensation>
+		<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.004</XLinearAccuracy>
+			<YLinearAccuracy>0.004</YLinearAccuracy>
+			<ZLinearAccuracy>0.004</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.006</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.008</VolumetricPerformance>
+			<Repeatability>0.006</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>ThreeValues</ErrorOfIndicationType>
+			<ErrorOfIndication>0.01 0.02 0.03</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>p1r2</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p2c5</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p3l6</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p4c5</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p5c6</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p2c8</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="500" Y="400" Z="100" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.06" Radial="0.06" Tangential="0.06" />
+		</RotaryTable>
+		<Sensor>
+			<Name>My Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>Leitz PMM 866</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="800" Y="600" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>1.2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0057</XLinearAccuracy>
+			<YLinearAccuracy>0.0057</YLinearAccuracy>
+			<ZLinearAccuracy>0.0053</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.009</VolumetricPerformance>
+			<Repeatability>0.004</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>ThreeValues</ErrorOfIndicationType>
+			<ErrorOfIndication>0.0006 0.0016 0.0025</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>p1r2</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p2c5</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p3l6</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p4c5</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p5c6</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p2c8</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.0005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+	<Cmm>
+		<Name>Leitz PMM 866 with RT</Name>
+		<Type>MovingBridge</Type>
+		<AxisOrientationX>PlusA</AxisOrientationX>
+		<AxisOrientationY>PlusB</AxisOrientationY>
+		<AxisOrientationZ>PlusC</AxisOrientationZ>
+		<Zero X="0" Y="0" Z="0" />
+		<Extents X="800" Y="600" Z="600" />
+		<CmmScales>Standard</CmmScales>
+		<CmmTemperature>20</CmmTemperature>
+		<CmmTemperatureUncertainty>1</CmmTemperatureUncertainty>
+		<CmmExpansionCoefficient>11.8</CmmExpansionCoefficient>
+		<CmmExpansionCoefficientUncertainty>1.2</CmmExpansionCoefficientUncertainty>
+		<CmmSoftwareCompensation>NoCompensation</CmmSoftwareCompensation>
+		<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+		<B89>
+			<XLinearAccuracy>0.0057</XLinearAccuracy>
+			<YLinearAccuracy>0.0057</YLinearAccuracy>
+			<ZLinearAccuracy>0.0053</ZLinearAccuracy>
+			<OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+			<VolumetricPerformance>0.009</VolumetricPerformance>
+			<Repeatability>0.004</Repeatability>
+		</B89>
+		<Iso10360>
+			<ArtifactType>GageBlocks</ArtifactType>
+			<ErrorOfIndicationType>ThreeValues</ErrorOfIndicationType>
+			<ErrorOfIndication>0.0006 0.0016 0.0025</ErrorOfIndication>
+			<ArtifactPosition>
+				<Position>p1r2</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p2c5</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p3l6</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p4c5</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p5c6</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>p2c8</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+			<ArtifactPosition>
+				<Position>Unknown</Position>
+				<StackingOrder>Center</StackingOrder>
+			</ArtifactPosition>
+		</Iso10360>
+		<RotaryTable>
+			<Radius>300</Radius>
+			<Origin X="400" Y="300" Z="220" />
+			<AxisDirection X="0" Y="0" Z="1" />
+			<ZeroIndexDirection X="1" Y="0" Z="0" />
+			<Error Axial="0.0002" Radial="0.0002" Tangential="0.0002" />
+		</RotaryTable>
+		<Sensor>
+			<Name>Fixed Probe</Name>
+			<SensorType>SingleTipFixed</SensorType>
+			<SensorTechnology>PiezoelectricProbe</SensorTechnology>
+			<ActivePerformanceTest>SpecifiedStandardDeviation</ActivePerformanceTest>
+			<Iso10360>0.004   50   </Iso10360>
+			<B89>0.006   50   </B89>
+			<VdiVde>0.007   50   </VdiVde>
+			<SpecifiedStandardDeviation>0.0005   50   </SpecifiedStandardDeviation>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Articulating Probe</Name>
+			<SensorType>SingleTipArticulated</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.0102   0.0009   0.0037   0.0195   0.0036   0.004   0.0284   0.0065   0.0044   0.0376   0.0097   0.0049   </Iso10360>
+			<BAngleAdjustment>0</BAngleAdjustment>
+			<StylusDefinitions>
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+		<Sensor>
+			<Name>My Fixed Multi-Tip Probe</Name>
+			<SensorType>MultiTipFixed</SensorType>
+			<SensorTechnology>SwitchingProbe</SensorTechnology>
+			<ActivePerformanceTest>Iso10360</ActivePerformanceTest>
+			<Iso10360>0.004   0.004   0.004   0.005   0.005   0.005   0.007   0.007   0.007   0.009   0.009   0.009   0.011   0.011   0.011   0.015   0.015   0.015   0.017   0.017   0.017   </Iso10360>
+			<AAngle>0</AAngle>
+			<BAngle>0</BAngle>
+			<StylusDefinitions>
+				<Stylus Length="100" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+				<Stylus Length="50" />
+			</StylusDefinitions>
+			<Extension Length="100" />
+		</Sensor>
+	</Cmm>
+</Mrd>

@@ -1,0 +1,80 @@
+<QIFDocument versionQIF="3.0.0" idMax="1" xmlns="http://qifstandards.org/xsd/qif3">
+  <QPId>f1500f6c-50a1-4a17-8f9b-128512e750fc</QPId>
+  <FileUnits xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://qifstandards.org/xsd/qif3">
+    <PrimaryUnits>
+      <LinearUnit>
+        <SIUnitName>meter</SIUnitName>
+        <UnitName>mm</UnitName>
+      </LinearUnit>
+      <PressureUnit>
+        <SIUnitName>pascal</SIUnitName>
+        <UnitName>kpa</UnitName>
+      </PressureUnit>
+      <TemperatureUnit>
+        <SIUnitName>kelvin</SIUnitName>
+        <UnitName>celsius</UnitName>
+      </TemperatureUnit>
+    </PrimaryUnits>
+  </FileUnits>
+  <MeasurementResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://qifstandards.org/xsd/qif3">
+    <MeasurementDevices n="1">
+      <CartesianCMM id="1">
+        <Name>CMM1</Name>
+        <Attributes n="6">
+          <AttributeD1 name="LowerExtentX" value="100" />
+          <AttributeD1 name="LowerExtentY" value="100" />
+          <AttributeD1 name="LowerExtentZ" value="100" />
+          <AttributeD1 name="CMMTemperature" value="20" />
+          <AttributeD1 name="CmmTemperatureUncertainty" value="0" />
+          <AttributeStr name="SoftwareCompensation" value="SINGLE" />
+        </Attributes>
+        <EnvironmentalRange>
+          <MaxAmbientTemperature>26.85</MaxAmbientTemperature>
+          <MinAmbientTemperature>16.85</MinAmbientTemperature>
+          <MaxAmbientAirPressure>2</MaxAmbientAirPressure>
+          <MinAmbientAirPressure>1.9</MinAmbientAirPressure>
+          <MaxAmbientRelativeHumidity>0</MaxAmbientRelativeHumidity>
+          <MinAmbientRelativeHumidity>0</MinAmbientRelativeHumidity>
+        </EnvironmentalRange>
+        <CartesianWorkingVolume>
+          <XAxisLength>1000000</XAxisLength>
+          <YAxisLength>1000000</YAxisLength>
+          <ZAxisLength>1000000</ZAxisLength>
+        </CartesianWorkingVolume>
+        <CMMGeometry>
+          <CartesianCMMGeometryEnum>MOVING_BRIDGE</CartesianCMMGeometryEnum>
+        </CMMGeometry>
+        <CartesianCMMAxisDirections>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </CartesianCMMAxisDirections>
+        <CartesianMeasurementDeviceScales>
+          <XScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>LASER_INTERFEROMETER_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </XScale>
+          <YScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>LASER_INTERFEROMETER_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </YScale>
+          <ZScale>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>
+              <TypeOfScaleEnum>LASER_INTERFEROMETER_LINEAR</TypeOfScaleEnum>
+            </TypeOfScale>
+          </ZScale>
+        </CartesianMeasurementDeviceScales>
+        <SensorIds n="0" />
+      </CartesianCMM>
+    </MeasurementDevices>
+    <DetachableSensors n="0" />
+  </MeasurementResources>
+</QIFDocument>

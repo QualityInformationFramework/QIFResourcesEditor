@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<QIFDocument xmlns="http://qifstandards.org/xsd/qif2" versionQIF="1.9.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://qifstandards.org/xsd/qif2 \QIFApplications\QIFDocument.xsd">
+
+  <MeasurementResources>
+    <Carriages>
+      <Carriage id="6">
+        <Name>CMM Model C carriage</Name>
+        <ToolIds N="1">
+          <Id>5</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="9">
+        <Name>CMM Model B carriage</Name>
+        <ToolIds N="1">
+          <Id>8</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="13">
+        <Name>Perfect CMM ENV carriage</Name>
+        <ToolIds N="1">
+          <Id>12</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="16">
+        <Name>CMM Model D carriage</Name>
+        <ToolIds N="1">
+          <Id>15</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="19">
+        <Name>CMM Model A with RT carriage</Name>
+        <ToolIds N="1">
+          <Id>18</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="22">
+        <Name>CMM Model B with RT carriage</Name>
+        <ToolIds N="1">
+          <Id>21</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="25">
+        <Name>CMM Model A carriage</Name>
+        <ToolIds N="1">
+          <Id>24</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="29">
+        <Name>Leitz PMM 866 with RT carriage</Name>
+        <ToolIds N="1">
+          <Id>28</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="32">
+        <Name>CMM Model D with RT carriage</Name>
+        <ToolIds N="1">
+          <Id>31</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="35">
+        <Name>CMM Model C with RT carriage</Name>
+        <ToolIds N="1">
+          <Id>34</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="40">
+        <Name>ISO 10360 CMM, same probes, with rotary table carriage</Name>
+        <ToolIds N="1">
+          <Id>39</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="44">
+        <Name>CMM do Brasil carriage</Name>
+        <ToolIds N="1">
+          <Id>43</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="47">
+        <Name>Leitz PMM 866 carriage</Name>
+        <ToolIds N="1">
+          <Id>46</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="50">
+        <Name>Perfect CMM, same probes, with rotary table carriage</Name>
+        <ToolIds N="1">
+          <Id>49</Id>
+        </ToolIds>
+      </Carriage>
+      <Carriage id="53">
+        <Name>Perfect CMM carriage</Name>
+        <ToolIds N="1">
+          <Id>52</Id>
+        </ToolIds>
+      </Carriage>
+    </Carriages>
+    <MeasurementDevices>
+      <CMM id="4">
+        <Name>CMM Model C</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0057</XLinearAccuracy>
+            <YLinearAccuracy>0.0057</YLinearAccuracy>
+            <ZLinearAccuracy>0.0053</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.009</VolumetricPerformance>
+            <Repeatability>0.004</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <CarriageIds N="1">
+          <Id>6</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="7">
+        <Name>CMM Model B</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0035</XLinearAccuracy>
+            <YLinearAccuracy>0.0035</YLinearAccuracy>
+            <ZLinearAccuracy>0.0032</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.012</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0075</VolumetricPerformance>
+            <Repeatability>0.004</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <CarriageIds N="1">
+          <Id>9</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="11">
+        <Name>Perfect CMM ENV</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=3;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>20</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>20</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>1000</YAxisLength>
+          <ZAxisLength>1000</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <CarriageIds N="1">
+          <Id>13</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="14">
+        <Name>CMM Model D</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0085</XLinearAccuracy>
+            <YLinearAccuracy>0.0085</YLinearAccuracy>
+            <ZLinearAccuracy>0.008</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.024</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0138</VolumetricPerformance>
+            <Repeatability>0.006</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <CarriageIds N="1">
+          <Id>16</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="17">
+        <Name>CMM Model A with RT</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0012</XLinearAccuracy>
+            <YLinearAccuracy>0.0012</YLinearAccuracy>
+            <ZLinearAccuracy>0.00093</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.005</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0031</VolumetricPerformance>
+            <Repeatability>0.00048</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.00048</AxialError>
+            <RadialError>0.00048</RadialError>
+            <TangentialError>0.00048</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>19</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="20">
+        <Name>CMM Model B with RT</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0035</XLinearAccuracy>
+            <YLinearAccuracy>0.0035</YLinearAccuracy>
+            <ZLinearAccuracy>0.0032</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.012</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0075</VolumetricPerformance>
+            <Repeatability>0.004</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.004</AxialError>
+            <RadialError>0.004</RadialError>
+            <TangentialError>0.004</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>22</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="23">
+        <Name>CMM Model A</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0012</XLinearAccuracy>
+            <YLinearAccuracy>0.0012</YLinearAccuracy>
+            <ZLinearAccuracy>0.00093</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.005</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0031</VolumetricPerformance>
+            <Repeatability>0.00048</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <CarriageIds N="1">
+          <Id>25</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="27">
+        <Name>Leitz PMM 866 with RT</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;IsoArtifact=0;IsoArtifactPosition1=1;IsoArtifactPosition2=29;IsoArtifactPosition3=48;IsoArtifactPosition4=56;IsoArtifactPosition5=68;IsoArtifactPosition6=38;IsoArtifactPosition7=0;IsoArtifactStackingOrder1=1;IsoArtifactStackingOrder2=1;IsoArtifactStackingOrder3=1;IsoArtifactStackingOrder4=1;IsoArtifactStackingOrder5=1;IsoArtifactStackingOrder6=1;IsoArtifactStackingOrder7=1;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>800</XAxisLength>
+          <YAxisLength>600</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <ISO10360Test>
+            <LesserError>
+              <MaxErrorConstant>0.0025</MaxErrorConstant>
+              <LinearError>
+                <BaseError>0.0006</BaseError>
+                <ErrorRate>0.0016</ErrorRate>
+              </LinearError>
+            </LesserError>
+          </ISO10360Test>
+        </ActualAccuracy>
+        <RotaryTable>
+          <LocationOnCMM>400 300 220</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.0002</AxialError>
+            <RadialError>0.0002</RadialError>
+            <TangentialError>0.0002</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>29</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="30">
+        <Name>CMM Model D with RT</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0085</XLinearAccuracy>
+            <YLinearAccuracy>0.0085</YLinearAccuracy>
+            <ZLinearAccuracy>0.008</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.024</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0138</VolumetricPerformance>
+            <Repeatability>0.006</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.006</AxialError>
+            <RadialError>0.006</RadialError>
+            <TangentialError>0.006</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>32</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="33">
+        <Name>CMM Model C with RT</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0057</XLinearAccuracy>
+            <YLinearAccuracy>0.0057</YLinearAccuracy>
+            <ZLinearAccuracy>0.0053</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0.015</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.009</VolumetricPerformance>
+            <Repeatability>0.004</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.004</AxialError>
+            <RadialError>0.004</RadialError>
+            <TangentialError>0.004</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>35</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="38">
+        <Name>ISO 10360 CMM, same probes, with rotary table</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=2;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;IsoArtifact=0;IsoArtifactPosition1=1;IsoArtifactPosition2=29;IsoArtifactPosition3=48;IsoArtifactPosition4=56;IsoArtifactPosition5=68;IsoArtifactPosition6=38;IsoArtifactPosition7=0;IsoArtifactStackingOrder1=1;IsoArtifactStackingOrder2=1;IsoArtifactStackingOrder3=1;IsoArtifactStackingOrder4=1;IsoArtifactStackingOrder5=1;IsoArtifactStackingOrder6=1;IsoArtifactStackingOrder7=1;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <ISO10360Test>
+            <LesserError>
+              <MaxErrorConstant>0.03</MaxErrorConstant>
+              <LinearError>
+                <BaseError>0.01</BaseError>
+                <ErrorRate>0.02</ErrorRate>
+              </LinearError>
+            </LesserError>
+          </ISO10360Test>
+        </ActualAccuracy>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.06</AxialError>
+            <RadialError>0.06</RadialError>
+            <TangentialError>0.06</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>40</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="42">
+        <Name>CMM do Brasil</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19.7</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>20.3</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>550</XAxisLength>
+          <YAxisLength>500</YAxisLength>
+          <ZAxisLength>400</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.5</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.5</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.5</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <B89Test>
+            <XLinearAccuracy>0.0012</XLinearAccuracy>
+            <YLinearAccuracy>0.0012</YLinearAccuracy>
+            <ZLinearAccuracy>0.001</ZLinearAccuracy>
+            <OffsetVolumetricPerformance>0</OffsetVolumetricPerformance>
+            <VolumetricPerformance>0.0031</VolumetricPerformance>
+            <Repeatability>0.0002</Repeatability>
+          </B89Test>
+        </ActualAccuracy>
+        <CarriageIds N="1">
+          <Id>44</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="45">
+        <Name>Leitz PMM 866</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;IsoArtifact=0;IsoArtifactPosition1=1;IsoArtifactPosition2=29;IsoArtifactPosition3=48;IsoArtifactPosition4=56;IsoArtifactPosition5=68;IsoArtifactPosition6=38;IsoArtifactPosition7=0;IsoArtifactStackingOrder1=1;IsoArtifactStackingOrder2=1;IsoArtifactStackingOrder3=1;IsoArtifactStackingOrder4=1;IsoArtifactStackingOrder5=1;IsoArtifactStackingOrder6=1;IsoArtifactStackingOrder7=1;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>19</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>21</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>800</XAxisLength>
+          <YAxisLength>600</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>11.8</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>1.2</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <ActualAccuracy>
+          <MinTemperature>20</MinTemperature>
+          <MaxTemperature>20</MaxTemperature>
+          <ISO10360Test>
+            <LesserError>
+              <MaxErrorConstant>0.0025</MaxErrorConstant>
+              <LinearError>
+                <BaseError>0.0006</BaseError>
+                <ErrorRate>0.0016</ErrorRate>
+              </LinearError>
+            </LesserError>
+          </ISO10360Test>
+        </ActualAccuracy>
+        <CarriageIds N="1">
+          <Id>47</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="48">
+        <Name>Perfect CMM, same probes, with rotary table</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=3;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>20</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>20</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>1</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>1</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>1</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <RotaryTable>
+          <LocationOnCMM>500 400 100</LocationOnCMM>
+          <AxisDirection>1 0 0</AxisDirection>
+          <ZeroIndexDirection>1 0 0</ZeroIndexDirection>
+          <TableRadius>300</TableRadius>
+          <TableErrors>
+            <AxialError>0.06</AxialError>
+            <RadialError>0.06</RadialError>
+            <TangentialError>0.06</TangentialError>
+          </TableErrors>
+        </RotaryTable>
+        <CarriageIds N="1">
+          <Id>50</Id>
+        </CarriageIds>
+      </CMM>
+      <CMM id="51">
+        <Name>Perfect CMM</Name>
+        <Description>CmmLaserAirTemperature=20.000000;CmmLaserAirTemperatureUncertainty=0.000000;CmmLaserAirPressure=101.325000;CmmLaserAirPressureUncertainty=0.000000;CmmLaserAirHumidity=0.000000;CmmLaserAirHumidityUncertainty=0.000000;CmmSoftwareCompensation=0;Zero0=0.000000;Zero1=0.000000;Zero2=0.000000;</Description>
+        <InspectionTemperatures>
+          <Temperature>
+            <Temperature>20</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+          <Temperature>
+            <Temperature>20</Temperature>
+            <TimeStamp>0001-01-01T00:00:00</TimeStamp>
+          </Temperature>
+        </InspectionTemperatures>
+        <WorkingVolume>
+          <XAxisLength>1000</XAxisLength>
+          <YAxisLength>800</YAxisLength>
+          <ZAxisLength>600</ZAxisLength>
+        </WorkingVolume>
+        <MachineGeometry>
+          <CMMGeometryEnum>BRIDGEMOVINGBRIDGE</CMMGeometryEnum>
+        </MachineGeometry>
+        <AxisOrientation>
+          <XAxisDirection>RIGHT</XAxisDirection>
+          <YAxisDirection>BACK</YAxisDirection>
+          <ZAxisDirection>UP</ZAxisDirection>
+        </AxisOrientation>
+        <CMMScales>
+          <XScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </XScale>
+          <YScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </YScale>
+          <ZScale>
+            <ScaleMaterial></ScaleMaterial>
+            <ScaleCoefficientOfExpansion>0</ScaleCoefficientOfExpansion>
+            <ScaleCoefficientOfExpansionUncertainty>0</ScaleCoefficientOfExpansionUncertainty>
+            <TypeOfScale>0</TypeOfScale>
+            <ScaleResolution>0</ScaleResolution>
+          </ZScale>
+        </CMMScales>
+        <CarriageIds N="1">
+          <Id>53</Id>
+        </CarriageIds>
+      </CMM>
+    </MeasurementDevices>
+    <Sensors>
+      <TouchProbe id="1">
+        <Name>Fixed Probe</Name>
+        <Description>SensorType=0;SensorTechnology=1;ActivePerformanceTest=3;PerformanceTestIso10360=0.004000,50.000000;PerformanceTestB89=0.006000,50.000000;PerformanceTestVdiVde=0.007000,50.000000;PerformanceTestSpecifiedStandardDeviation=0.005000,50.000000;StylusLength1=50.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="2">
+        <Name>My Articulating Probe</Name>
+        <Description>SensorType=2;SensorTechnology=0;ActivePerformanceTest=0;PerformanceTestIso10360=0.010200,0.000900,0.003700,0.019500,0.003600,0.004000,0.028400,0.006500,0.004400,0.037600,0.009700,0.004900;BAngleAdjustment=0.000000;StylusLength1=50.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="3">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Description>SensorType=1;SensorTechnology=0;ActivePerformanceTest=0;PerformanceTestIso10360=0.004000,0.004000,0.004000,0.005000,0.005000,0.005000,0.007000,0.007000,0.007000,0.009000,0.009000,0.009000,0.011000,0.011000,0.011000,0.015000,0.015000,0.015000,0.017000,0.017000,0.017000;StylusLength1=100.000000;StylusLength2=50.000000;StylusLength3=50.000000;StylusLength4=50.000000;StylusLength5=50.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="10">
+        <Name>MySensor1</Name>
+        <Description>SensorType=0;SensorTechnology=1;ActivePerformanceTest=3;PerformanceTestIso10360=0.000000,50.000000;PerformanceTestB89=0.000000,50.000000;PerformanceTestVdiVde=0.000000,50.000000;PerformanceTestSpecifiedStandardDeviation=0.005000,50.000000;StylusLength1=50.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="26">
+        <Name>Fixed Probe</Name>
+        <Description>SensorType=0;SensorTechnology=1;ActivePerformanceTest=3;PerformanceTestIso10360=0.004000,50.000000;PerformanceTestB89=0.006000,50.000000;PerformanceTestVdiVde=0.007000,50.000000;PerformanceTestSpecifiedStandardDeviation=0.000500,50.000000;StylusLength1=50.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="36">
+        <Name>My Fixed Probe</Name>
+        <Description>SensorType=0;SensorTechnology=1;ActivePerformanceTest=3;PerformanceTestIso10360=0.004000,50.000000;PerformanceTestB89=0.006000,50.000000;PerformanceTestVdiVde=0.007000,50.000000;PerformanceTestSpecifiedStandardDeviation=0.005000,50.000000;StylusLength1=50.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="37">
+        <Name>My Articulating Probe</Name>
+        <Description>SensorType=2;SensorTechnology=0;ActivePerformanceTest=0;PerformanceTestIso10360=0.004000,0.004000,0.004000,0.005000,0.005000,0.005000,0.007000,0.007000,0.007000,0.009000,0.009000,0.009000;BAngleAdjustment=0.000000;StylusLength1=50.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+      <TouchProbe id="41">
+        <Name>My Fixed Multi-Tip Probe</Name>
+        <Description>SensorType=1;SensorTechnology=0;ActivePerformanceTest=0;PerformanceTestIso10360=0.001700,0.000100,0.000500,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000;StylusLength1=80.000000;StylusLength2=80.000000;StylusLength3=80.000000;StylusLength4=80.000000;StylusLength5=80.000000;Extension=100.000000;</Description>
+        <Qualifications>
+          <Qualification>
+            <Description></Description>
+          </Qualification>
+        </Qualifications>
+        <AAngle>0</AAngle>
+        <BAngle>0</BAngle>
+        <TipDiameter>0</TipDiameter>
+      </TouchProbe>
+    </Sensors>
+    <Tools>
+      <Tool id="5">
+        <Name>CMM Model C available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="8">
+        <Name>CMM Model B available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="12">
+        <Name>Perfect CMM ENV available sensors</Name>
+        <SensorIds N="1">
+          <Id>10</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="15">
+        <Name>CMM Model D available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="18">
+        <Name>CMM Model A with RT available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="21">
+        <Name>CMM Model B with RT available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="24">
+        <Name>CMM Model A available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="28">
+        <Name>Leitz PMM 866 with RT available sensors</Name>
+        <SensorIds N="3">
+          <Id>26</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="31">
+        <Name>CMM Model D with RT available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="34">
+        <Name>CMM Model C with RT available sensors</Name>
+        <SensorIds N="3">
+          <Id>1</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="39">
+        <Name>ISO 10360 CMM, same probes, with rotary table available sensors</Name>
+        <SensorIds N="3">
+          <Id>36</Id>
+          <Id>37</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="43">
+        <Name>CMM do Brasil available sensors</Name>
+        <SensorIds N="3">
+          <Id>36</Id>
+          <Id>37</Id>
+          <Id>41</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="46">
+        <Name>Leitz PMM 866 available sensors</Name>
+        <SensorIds N="3">
+          <Id>26</Id>
+          <Id>2</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="49">
+        <Name>Perfect CMM, same probes, with rotary table available sensors</Name>
+        <SensorIds N="3">
+          <Id>36</Id>
+          <Id>37</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+      <Tool id="52">
+        <Name>Perfect CMM available sensors</Name>
+        <SensorIds N="3">
+          <Id>36</Id>
+          <Id>37</Id>
+          <Id>3</Id>
+        </SensorIds>
+      </Tool>
+    </Tools>
+  </MeasurementResources>
+
+</QIFDocument>
