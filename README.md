@@ -54,6 +54,10 @@ Copyright 2018-2020, Capvidia, Metrosage, and project contributors
 
 https://www.capvidia.com/
 
+## Acknowledgements
+
+This effort was developed with assitance from cooperative agreement 70NANB18H171 between the National Institute of Standards and Technology (NIST) and Metrosage, and with assistance from Capvidia. 
+
 ## License
 
 See [License](LICENSE.md)
