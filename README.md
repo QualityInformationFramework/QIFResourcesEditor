@@ -29,7 +29,7 @@ QIF version 1.9.1 was a pre-release version of QIF 2.0. It is extremely close to
 
 2. **Integrate vcpkg with Visual Studio** - Your Visual Studio installation needs to be configured to use the headers and libraries loaded with vcpkg. To do this, run the following command in the `vcpkg` directory:
 ```
-vcpkg integrate install
+./vcpkg integrate install
 ```
 
 3. **Install icu** - Install the `icu` package. This can be done by running the following command inside of the `vcpkg` directory: 
